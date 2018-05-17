@@ -1,0 +1,11 @@
+<%= form_tag '/articles', method: 'post' do %>
+	<p><%= flash[:failure] %></p>
+	<input type="text" placeholder="Title" name="title" />
+	<input type="text" placeholder="Content" name="content" />
+	<select name="category_id">
+		<% @categories.each do |category| %>
+		<option value="<%= category.id %>"><%= category.name %></option>
+		<% end %>
+	</select>
+	<input type="submit" value="Ajouter l'article" />
+	<% end %>

@@ -1,0 +1,61 @@
+body {
+	background: url("../img/back.jpg");
+	margin: 0;
+}
+
+h1 {
+	text-shadow: 5px 5px grey;
+}
+
+h2 {
+	color: red;
+}
+
+#profil {
+	float: right;
+}
+
+#content {
+	font-family: neue;
+	display: flex;
+	border: 2px solid red;
+}
+
+.center {
+	text-align: center;
+}
+
+@font-face {
+    font-family: 'neue';
+    src: url('../font/neue.otf');
+}
+
+.block {
+	width: 33%;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.right {
+	width: 90%;
+	padding: 10px;
+	background-color: rgba(4, 4, 180, 0.3);
+}
+
+.left {
+	width: 10%;
+	background-color: black;
+	height: auto;
+}
+
+@media all and (max-width: 1024px) {
+	.left {
+		display: none;
+	}
+	.right {
+		width: 100%;
+	}
+	.block {
+		width: 100%;
+	}
+}

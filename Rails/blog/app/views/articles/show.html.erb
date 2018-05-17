@@ -1,0 +1,39 @@
+<div class="container">
+	<h1><%= @article.title %> (<%= @article.category.name %>)</h1>
+
+	<p><%= @article.content %></p>
+
+	<h2>Commentaires</h2>
+	<% @comments.each do |comment| %>
+	<p><strong><%= comment.author %></strong> <%= comment.content %> <a href="/comments/<%= @article.id %>/<%= comment.id %>">X</a></p>
+	<% end %>
+
+	<%= form_tag "/comments/#{@article.id}", method: 'post' do %>
+	<input type="text" placeholder="Author" name="author" />
+	<input type="text" placeholder="Content" name="art_content" />
+	<input type="submit" value="Ajouter un commentaire" />
+	<% end %>
+
+	<%= form_tag "/articles/#{@article.id}", method: "patch" do %>
+	<p><%= @article.errors[:title].first %></p>
+	<input type="text" name="title" placeholder="<%= @article.title %>" />
+	<input type="text" placeholder="<%= @article.content %>" name="content" />
+	<select name="category_id">
+		<% @categories.each do |category| %>
+		<%if @article.category.name == category.name %>
+		<option selected="selected" value="<%= category.id %>"><%= category.name %></option>
+		<% else %>
+		<option value="<%= category.id %>"><%= category.name %></option>
+		<% end %>
+		<% end %>
+	  </select>
+	<input type="submit" value="Modifier l'article" />
+	<% end %>
+
+	<%= form_tag "/articles/#{@article.id}", method: "delete" do %>
+	<br>
+	<input type="submit" value="Supprimer l'article" />
+	<% end %>
+
+	<p><a href="/articles">Retourner à l’index</a></p>
+</div>
