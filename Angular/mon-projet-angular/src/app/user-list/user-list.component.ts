@@ -10,9 +10,7 @@ import { UserService } from '../services/user.service';
 })
 export class UserListComponent implements OnInit, OnDestroy {
 
-	private users: User[] = [
-	new User('Will', 'Alexander', 'will@will.com', 'jus d\'orange', ['coder', 'boire du café'])
-	];
+	users: User[];
 	userSubscription: Subscription;
 
 	constructor(private userService: UserService) { }
@@ -22,7 +20,7 @@ export class UserListComponent implements OnInit, OnDestroy {
 			(users: User[]) => {
 				this.users = users;
 			}
-			);
+		);
 		this.userService.emitUsers();
 	}
 
