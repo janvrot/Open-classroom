@@ -19,27 +19,29 @@ import { HeaderComponent } from './header/header.component';
 const appRoutes: Routes = [
   { path: 'auth/signup', component: SignupComponent },
   { path: 'auth/signin', component: SigninComponent },
-  { path: 'books', component: BookListComponent },
-  { path: 'books/new', component: BookFormComponent },
-  { path: 'books/view/:id', component: SingleBookComponent }
+  { path: 'books', canActivate: [AuthGuardService], component: BookListComponent },
+  { path: 'books/new', canActivate: [AuthGuardService], component: BookFormComponent },
+  { path: 'books/view/:id', canActivate: [AuthGuardService], component: SingleBookComponent },
+  { path: '', redirectTo: 'books', pathMatch: 'full' },
+  { path: '**', redirectTo: 'books' }
 ];
 
 @NgModule({
   declarations: [
-  AppComponent,
-  SignupComponent,
-  SigninComponent,
-  BookListComponent,
-  SingleBookComponent,
-  BookFormComponent,
-  HeaderComponent
+    AppComponent,
+    SignupComponent,
+    SigninComponent,
+    BookListComponent,
+    SingleBookComponent,
+    BookFormComponent,
+    HeaderComponent
   ],
   imports: [
-  BrowserModule,
-  FormsModule,
-  ReactiveFormsModule,
-  HttpClientModule,
-  RouterModule.forRoot(appRoutes)
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [AuthService, BooksService, AuthGuardService],
   bootstrap: [AppComponent]
