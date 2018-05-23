@@ -15,7 +15,7 @@ export class AppComponent {
 			authDomain: "super-projet-2.firebaseapp.com",
 			databaseURL: "https://super-projet-2.firebaseio.com",
 			projectId: "super-projet-2",
-			storageBucket: "",
+			storageBucket: "gs://super-projet-2.appspot.com/",
 			messagingSenderId: "446753639014"
 		};
 		firebase.initializeApp(config);

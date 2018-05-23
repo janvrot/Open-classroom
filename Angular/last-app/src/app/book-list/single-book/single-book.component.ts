@@ -13,7 +13,7 @@ export class SingleBookComponent implements OnInit {
 	book: Book;
 
 	constructor(private route: ActivatedRoute, private booksService: BooksService,
-		private router: Router) {}
+		private router: Router) { }
 
 	ngOnInit() {
 		this.book = new Book('', '');
@@ -22,7 +22,7 @@ export class SingleBookComponent implements OnInit {
 			(book: Book) => {
 				this.book = book;
 			}
-			);
+		);
 	}
 
 	onBack() {
