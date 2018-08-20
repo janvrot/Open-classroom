@@ -2,9 +2,10 @@ package com.magi.player;
 
 import java.util.Scanner;
 
-public class Player {
+public abstract class Player {
 
     private TypePlayer typePlayer;
+    private String player;
     private int lvl = 0;
     private int life = 0;
     private int strength = 0;
@@ -64,8 +65,19 @@ public class Player {
         this.lvl = lvl;
     }
 
+    public String getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(String player) {
+        this.player = player;
+    }
+
+    public abstract void basicAttaque(Player playerOne, Player playerTwo);
+    public abstract void specialAttaque(Player playerOne, Player playerTwo);
+
     public String toString() {
-        String str = "Je suis le " + this.getTypePlayer();
+        String str = "Je suis le " + this.getTypePlayer() + " " + this.getPlayer();
         str += " niveau " + this.getLvl();
         str += " je possède " + this.getLife() + " en vitalité, ";
         str += this.getStrength() + " en force, ";
@@ -73,6 +85,4 @@ public class Player {
         str += this.getIntelligence() + " en intelligence !";
         return str;
     }
-
-
 }
