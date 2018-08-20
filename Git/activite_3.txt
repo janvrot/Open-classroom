@@ -1,0 +1,27 @@
+Qu'est-ce qu'un commit:
+
+Un commit est une sauvegarde des différentes modifications effectuées sur un fichier ou un ensemble de fichiers à un instant t. 
+Pour ajouter des éléments au commit il faut utiliser la commande git add "nom des dossiers/fichiers à ajouter" ou git add . si on veut tout ajouter d'un coup.
+Pour commit il faut utiliser la commande git commit -m "description du commit".
+
+Un commit peut être retrouvé facilement grâce à son id unique (le sha) ou à sa description .
+
+
+À quoi sert la commande git log :
+
+Un git log sert à récupérer tous les commits effectués sur une branche avec :
+- le nom du créateur du commit
+- la date du commit
+- sa description
+- son sha
+
+
+Qu'est-ce qu'une branche :
+
+Une branche est un moyen de travailler sur le même projet sans gêner les différents collaborateurs. En effet, chaque branche dispose du même code de base mais évolue indépendament des autres.
+Pour créer une branche il faut utiliser la commande git branche "nom de la branche"
+Pour se positionner sur la branche il faut utiliser la commande git checkout "nom de a branche"
+
+Le problème des branches survient lors de leur fusion. En effet, un projet est terminé quand toutes les branches sont fusionnées via git merge et qu'il ne reste plus que la branche master. Il faut alors souvent résoudre des conflits car certains fichiers ont pu être modifiés de plusieurs manières.
+
+Il faut donc fusionner les branches souvent pour éviter des surprises.
