@@ -2,6 +2,10 @@ package com.magi.player;
 
 public class Guerrier extends Player implements Fight {
 
+    public Guerrier() {
+        this.setTypePlayer(TypePlayer.Guerrier);
+    }
+
 
     @Override
     public void basicAttaque(Player playerOne, Player playerTwo) {
