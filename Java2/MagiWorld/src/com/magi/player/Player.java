@@ -1,31 +1,23 @@
 package com.magi.player;
 
+import java.util.Scanner;
+
 public class Player {
 
     private TypePlayer typePlayer;
-    private int lvl;
-    private int life;
-    private int strength;
-    private int agility;
-    private int intelligence;
+    private int lvl = 0;
+    private int life = 0;
+    private int strength = 0;
+    private int agility = 0;
+    private int intelligence = 0;
 
     public Player() {
+
     }
 
-    public Player(TypePlayer typePlayer, int lvl, int strength, int agility, int intelligence) {
-        this.typePlayer = typePlayer;
-        this.lvl = lvl;
-        this.strength = strength;
-        this.agility = agility;
-        this.intelligence = intelligence;
-    }
 
     public int getLvl() {
         return lvl;
-    }
-
-    public void setLvl(int lvl) {
-        this.lvl = lvl;
     }
 
     public int getStrength() {
@@ -56,16 +48,20 @@ public class Player {
         return typePlayer;
     }
 
-    public void setTypePlayer(TypePlayer typePlayer) {
-        this.typePlayer = typePlayer;
-    }
-
     public int getLife() {
         return life;
     }
 
     public void setLife(int life) {
         this.life = life;
+    }
+
+    public void setTypePlayer(TypePlayer typePlayer) {
+        this.typePlayer = typePlayer;
+    }
+
+    public void setLvl(int lvl) {
+        this.lvl = lvl;
     }
 
     public String toString() {
@@ -77,4 +73,6 @@ public class Player {
         str += this.getIntelligence() + " en intelligence !";
         return str;
     }
+
+
 }
