@@ -15,7 +15,7 @@ public class Rodeur extends Player {
 
     @Override
     public void specialAttaque(Player playerOne, Player playerTwo) {
-        playerOne.setAgility(playerOne.getAgility() + playerOne.getAgility() / 2);
-        System.out.println(playerOne.getPlayer() + " utilise Concentration et gagne " + playerOne.getAgility() + " d'agilité");
+        playerOne.setAgility(playerOne.getAgility() + playerOne.getLvl() / 2);
+        System.out.println(playerOne.getPlayer() + " utilise Concentration et gagne " + playerOne.getLvl() / 2 + " d'agilité");
     }
 }

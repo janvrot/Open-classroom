@@ -19,6 +19,8 @@ public class Fight {
             int i;
             for (i = 0; i < players.size(); i++) {
                 checkDeath = startTurn(players.get(i));
+                if (checkDeath)
+                    break;
                 this.attack(players.get(i), players.get(this.otherPlayer(i)));
             }
         }
@@ -48,8 +50,7 @@ public class Fight {
     private int otherPlayer(int index) {
         if (index == players.size() - 1) {
             return 0;
-        }
-        else {
+        } else {
             return index + 1;
         }
     }
@@ -77,30 +78,30 @@ public class Fight {
         }
     }
 
-    private boolean replay() {
-        Scanner sc = new Scanner(System.in);
-        boolean checkParam = false;
-        boolean result = false;
-        System.out.println("Voulez-vous rejouer ? 1: Oui, 2: Non");
-
-        while (!checkParam) {
-            if (sc.hasNextInt()) {
-                int value = sc.nextInt();
-                switch (value) {
-                    case 1:
-                        result = true;
-                        break;
-                    case 2:
-                        System.out.println("Merci d'avoir joué");
-                        result = false;
-                        break;
-                }
-                checkParam = true;
-            } else {
-                sc.next();
-                System.out.println("Parametre invalide !!");
-            }
-        }
-        return result;
-    }
+//    private boolean replay() {
+//        Scanner sc = new Scanner(System.in);
+//        boolean checkParam = false;
+//        boolean result = false;
+//        System.out.println("Voulez-vous rejouer ? 1: Oui, 2: Non");
+//
+//        while (!checkParam) {
+//            if (sc.hasNextInt()) {
+//                int value = sc.nextInt();
+//                switch (value) {
+//                    case 1:
+//                        result = true;
+//                        break;
+//                    case 2:
+//                        System.out.println("Merci d'avoir joué");
+//                        result = false;
+//                        break;
+//                }
+//                checkParam = true;
+//            } else {
+//                sc.next();
+//                System.out.println("Parametre invalide !!");
+//            }
+//        }
+//        return result;
+//    }
 }
