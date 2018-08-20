@@ -2,11 +2,8 @@ package com.magi.player;
 
 public class Mage extends Player {
 
-    private int maxLife;
-
     public Mage() {
         this.setTypePlayer(TypePlayer.Mage);
-        maxLife = this.getLife();
     }
 
     @Override
@@ -18,6 +15,7 @@ public class Mage extends Player {
 
     @Override
     public void specialAttaque(Player playerOne, Player playerTwo) {
+        int maxLife = playerOne.getLvl() * 5;
         int startLife = playerOne.getLife();
 
         playerOne.setLife(playerOne.getLife() + playerOne.getIntelligence() * 2);
