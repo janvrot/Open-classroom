@@ -4,10 +4,23 @@ import com.magi.player.*;
 
 import java.util.Scanner;
 
+/**
+ * Cree un joueur en ligne de commande
+ *
+ * @author Antoine JANVROT
+ */
 public class CreatePlayer {
 
+    /**
+     * Instanciation d'un objet player
+     *
+     * @see Player
+     */
     private static Player player;
 
+    /**
+     * Instnciation du player et lancement du script de creation
+     */
     public CreatePlayer() {
         System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rodeur, 3 : Mage)");
         this.addValue("chooseType");
@@ -26,11 +39,20 @@ public class CreatePlayer {
         }
     }
 
-
+    /**
+     * Recupere le player et ses caracteristiques
+     *
+     * @return le player et ses caracteristiques
+     */
     public static Player getPlayer() {
         return player;
     }
 
+    /**
+     * Ajoute une caracteristique au joueur
+     *
+     * @param action la caracteristique a ajouter au joueur
+     */
     private void addValue(String action) {
         Scanner sc = new Scanner(System.in);
         boolean checkType = false;
@@ -63,6 +85,12 @@ public class CreatePlayer {
         }
     }
 
+    /**
+     * Permet de choisir le type du joueur
+     *
+     * @param value le choix du type
+     * @return true si la creation du joueur s'est bien passee ou false
+     */
     protected static boolean chooseType(int value) {
         boolean result = false;
         switch (value) {
@@ -86,6 +114,12 @@ public class CreatePlayer {
         return result;
     }
 
+    /**
+     * Ajoute le niveau du joueur
+     *
+     * @param lvl le niveau du joueur
+     * @return true si le niveau est bien formatte ou false
+     */
     protected static boolean chooseLvl(int lvl) {
         boolean result = false;
         if (lvl < 1 || lvl > 100) {
@@ -99,6 +133,13 @@ public class CreatePlayer {
         return result;
     }
 
+    /**
+     * Ajoute une statistique au joueur
+     *
+     * @param action le type de statistique a ajouter au joueur
+     * @param stat la valeur de la statistique
+     * @return si l'ajout s'est bien passe ou false
+     */
     protected static boolean addStat(String action, int stat) {
         boolean result = false;
         if (stat <= getStatRestant()) {
@@ -123,6 +164,11 @@ public class CreatePlayer {
         return result;
     }
 
+    /**
+     * Recupere les points de statistiques restants a attribuer
+     *
+     * @return les points de statistiques restants a attribuer
+     */
     protected static int getStatRestant() {
         int pointsRestants = player.getLvl() - player.getAgility() - player.getStrength() - player.getIntelligence();
         return pointsRestants;

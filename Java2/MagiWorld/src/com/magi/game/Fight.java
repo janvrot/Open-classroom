@@ -6,11 +6,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Gere le combat entre joueurs
+ *
+ * @author Antoine JANVROT
+ */
 public class Fight {
 
-
+    /**
+     * Creation d'une liste pour stocker tous les joueurs
+     *
+     * @see Player
+     */
     private List<Player> players = new ArrayList();
 
+    /**
+     * Instanciation de la classe Fight et lancement de la boucle de jeu
+     */
     public Fight() {
         boolean checkDeath = false;
 
@@ -26,6 +38,11 @@ public class Fight {
         }
     }
 
+    /**
+     * Cree des joueurs en fonction du nombre en parametre
+     *
+     * @param players le nombre de joueurs a creer
+     */
     private void createPlayers(int players) {
         for (int i = 1; i <= players; i++) {
             System.out.println("Creation du personnage du joueur " + i + ":");
@@ -36,6 +53,12 @@ public class Fight {
         }
     }
 
+    /**
+     * Debut du tour d'un joueur et verification de sa sante
+     *
+     * @param player le joueur concerne
+     * @return false si le joueur est en vie ou false
+     */
     private boolean startTurn(Player player) {
         if (player.getLife() > 0) {
             System.out.println(player.getPlayer() + "(" + player.getLife() + " vitalite) veuillez choisir votre action " +
@@ -47,6 +70,12 @@ public class Fight {
         }
     }
 
+    /**
+     * Recuperation de la position dans la List du joueur a attaquer
+     *
+     * @param index le positionnement du joueur dans la List
+     * @return le positionnement du joueur a attaquer
+     */
     private int otherPlayer(int index) {
         if (index == players.size() - 1) {
             return 0;
@@ -55,7 +84,12 @@ public class Fight {
         }
     }
 
-
+    /**
+     * Declenchement d'une attaque
+     *
+     * @param playerOne le joueur actif
+     * @param playerTwo le joueur a attaquer
+     */
     private void attack(Player playerOne, Player playerTwo) {
         Scanner sc = new Scanner(System.in);
         boolean checkParam = false;

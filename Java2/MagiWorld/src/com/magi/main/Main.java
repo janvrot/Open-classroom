@@ -23,7 +23,7 @@ public class Main {
                             result = true;
                             break;
                         case 2:
-                            System.out.println("Merci d'avoir joué");
+                            System.out.println("Merci d'avoir joue");
                             result = false;
                             break;
                     }
