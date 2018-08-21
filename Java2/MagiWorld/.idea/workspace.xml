@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0609a7b5-5088-4b49-a558-8696b1bf6982" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2076775614">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="47" />
+          <entry key="java" value="11963" />
+          <entry key="txt" value="408" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11963" />
+          <entry key="PLAIN_TEXT" value="455" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MagiWorld" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/magi/game/Fight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/magi/test/CharacterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/Fight.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/Personnage.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/Personage.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/Character.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/TypePersonnage.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/personnage/TypeCharacter.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/character/Character.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/character/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Fight.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/CreatePlayers.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/ChooseType.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/Pvp.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Techniques.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/test/FightTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/Rodeur.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/player/TypePlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/CreatePlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/Fight.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/FightTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magi/game/PlayerTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="magi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="magi" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="magi" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="magi" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.magi.game in MagiWorld">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magi.main.Main" />
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magi.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="MagiWorld" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magi.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.magi.game" />
+      <option name="MAIN_CLASS_NAME" value="com.magi.game.FightTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magi.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.magi.game" />
+      <option name="MAIN_CLASS_NAME" value="com.magi.game.PlayerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.magi.game in MagiWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magi.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.magi.game" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.PlayerTest" />
+      <item itemvalue="JUnit.FightTest" />
+      <item itemvalue="JUnit.com.magi.game in MagiWorld" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.magi.game in MagiWorld" />
+        <item itemvalue="JUnit.FightTest" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0609a7b5-5088-4b49-a558-8696b1bf6982" name="Default Changelist" comment="" />
+      <created>1534517528621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534517528621</updated>
+      <workItem from="1534517530395" duration="926000" />
+      <workItem from="1534751966873" duration="33646000" />
+    </task>
+    <task id="LOCAL-00001" summary="Premier test de creation d'un personnage">
+      <created>1534758097486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534758097486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creation avec type fonctionnelle">
+      <created>1534761189792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534761189792</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CCreation complete du personnage">
+      <created>1534778931032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534778931032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creation de 2 joueurs">
+      <created>1534779216092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534779216092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Les joueurs attaquent">
+      <created>1534789450749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534789450749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1 partie fonctionnelle a 100% creation d'un replay en cours">
+      <created>1534790309675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534790309675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tout fonctionne on passe aux tests">
+      <created>1534796114042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534796114042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test du player fonctionnels">
+      <created>1534840289810</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534840289810</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tests fonctionnels">
+      <created>1534844109046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534844109046</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ajout de la javadoc">
+      <created>1534848629376</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534848629376</updated>
+    </task>
+    <task id="LOCAL-00011" summary="javadoc des tests">
+      <created>1534848978658</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534848978658</updated>
+    </task>
+    <task id="LOCAL-00012" summary="suppresion des imports inutiles des tests">
+      <created>1534849041692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534849041692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ajout du fichier .git">
+      <created>1534849735758</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534849735758</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PlayerTest - 2018.08.21 at 10h 29m 28s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2018.08.21 at 10h 30m 28s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 19m 02s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 19m 20s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 21m 15s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 21m 41s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 22m 59s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 23m 13s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightTest - 2018.08.21 at 11h 26m 02s.xml">
+      <configuration name="FightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_magi_game_in_MagiWorld - 2018.08.21 at 11h 34m 12s.xml">
+      <configuration name="com.magi.game in MagiWorld" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34572000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.2536349" />
+      <window_info id="Structure" order="1" sideWeight="0.50136983" side_tool="true" weight="0.24959612" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50136983" side_tool="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Premier test de creation d'un personnage" />
+    <MESSAGE value="creation avec type fonctionnelle" />
+    <MESSAGE value="CCreation complete du personnage" />
+    <MESSAGE value="Creation de 2 joueurs" />
+    <MESSAGE value="Les joueurs attaquent" />
+    <MESSAGE value="1 partie fonctionnelle a 100% creation d'un replay en cours" />
+    <MESSAGE value="Tout fonctionne on passe aux tests" />
+    <MESSAGE value="test du player fonctionnels" />
+    <MESSAGE value="tests fonctionnels" />
+    <MESSAGE value="ajout de la javadoc" />
+    <MESSAGE value="javadoc des tests" />
+    <MESSAGE value="suppresion des imports inutiles des tests" />
+    <MESSAGE value="ajout du fichier .git" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout du fichier .git" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/company/Main.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#10225#10226#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/CreatePlayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/ChooseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/Techniques.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/test/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/TypePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="177" column="45" selection-start-line="177" selection-start-column="45" selection-end-line="177" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/CreatePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="167" column="63" selection-start-line="167" selection-start-column="63" selection-end-line="167" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/FightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magi/game/Fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
