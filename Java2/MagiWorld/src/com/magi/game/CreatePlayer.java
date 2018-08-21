@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class CreatePlayer {
 
-    private Player player;
+    private static Player player;
 
     public CreatePlayer() {
         System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rodeur, 3 : Mage)");
@@ -26,7 +26,8 @@ public class CreatePlayer {
         }
     }
 
-    public Player getPlayer() {
+
+    public static Player getPlayer() {
         return player;
     }
 
@@ -62,7 +63,7 @@ public class CreatePlayer {
         }
     }
 
-    private boolean chooseType(int value) {
+    protected static boolean chooseType(int value) {
         boolean result = false;
         switch (value) {
             case 1:
@@ -85,7 +86,7 @@ public class CreatePlayer {
         return result;
     }
 
-    private boolean chooseLvl(int lvl) {
+    protected static boolean chooseLvl(int lvl) {
         boolean result = false;
         if (lvl < 1 || lvl > 100) {
             System.out.println("Niveau du personnage entre 1 et 100");
@@ -98,9 +99,9 @@ public class CreatePlayer {
         return result;
     }
 
-    private boolean addStat(String action, int stat) {
+    protected static boolean addStat(String action, int stat) {
         boolean result = false;
-        if (stat <= this.getStatRestant()) {
+        if (stat <= getStatRestant()) {
             switch (action) {
                 case "addStrength":
                     player.setStrength(player.getStrength() + stat);
@@ -122,7 +123,7 @@ public class CreatePlayer {
         return result;
     }
 
-    private int getStatRestant() {
+    protected static int getStatRestant() {
         int pointsRestants = player.getLvl() - player.getAgility() - player.getStrength() - player.getIntelligence();
         return pointsRestants;
     }
