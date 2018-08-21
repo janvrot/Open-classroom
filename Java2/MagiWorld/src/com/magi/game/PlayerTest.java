@@ -1,8 +1,6 @@
 package com.magi.game;
 
-import com.magi.game.CreatePlayer;
 import com.magi.player.Player;
-import com.magi.player.TypePlayer;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

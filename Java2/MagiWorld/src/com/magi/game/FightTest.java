@@ -1,6 +1,5 @@
 package com.magi.game;
 
-import com.magi.game.CreatePlayer;
 import com.magi.player.Player;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
