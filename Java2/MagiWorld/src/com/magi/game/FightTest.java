@@ -7,12 +7,35 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Test des combats de la class Fight
+ *
+ * @see Fight
+ * @author Antoine JANVROT
+ */
 public class FightTest {
 
+    /**
+     * Instanciation d'un joueur
+     * @see Player
+     */
+
     private static Player playerOne;
+    /**
+     * Instanciation d'un joueur
+     * @see Player
+     */
+
     private static Player playerTwo;
+    /**
+     * Instanciation d'un joueur
+     * @see Player
+     */
     private static Player playerThree;
 
+    /**
+     * Creation de 3 joueurs
+     */
     @BeforeAll
     public static void initPlayers() {
         CreatePlayer.chooseType(1);
@@ -35,6 +58,9 @@ public class FightTest {
         playerThree = CreatePlayer.getPlayer();
     }
 
+    /**
+     * test des attaques du guerrier
+     */
     @Test
     public void Result_Attacks_Guerrier() {
         playerOne.basicAttaque(playerOne, playerTwo);
@@ -44,6 +70,9 @@ public class FightTest {
         assertEquals(20, playerTwo.getLife());
     }
 
+    /**
+     * test des attaques du rodeur
+     */
     @Test
     public void Result_Attacks_Rodeur() {
         playerTwo.basicAttaque(playerTwo, playerThree);
@@ -52,6 +81,9 @@ public class FightTest {
         assertEquals(15, playerTwo.getAgility());
     }
 
+    /**
+     * test des attaques du mage
+     */
     @Test
     public void Result_Attacks_Magicien() {
         playerThree.basicAttaque(playerThree, playerOne);

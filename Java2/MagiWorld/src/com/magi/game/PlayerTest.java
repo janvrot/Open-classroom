@@ -8,7 +8,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * test de la creation d'un joueur
+ * @see Player
+ */
 public class PlayerTest {
+
+    /**
+     * test de l'ajout de type au joueur
+     */
     @Test
     public void Given_Value_WhenGettingType_ThenGetBoolean() {
         assertTrue(CreatePlayer.chooseType(1));
@@ -17,12 +25,18 @@ public class PlayerTest {
         assertFalse(CreatePlayer.chooseType(4));
     }
 
+    /**
+     * test de l'ajout de nieau au joueur
+     */
     @Test
     public void Given_Value_WhenGettingLvl_ThenGetBoolean() {
         assertFalse(CreatePlayer.chooseLvl(0));
         assertTrue(CreatePlayer.chooseLvl(10));
     }
 
+    /**
+     * test de l'ajout de statistique au joueur
+     */
     @Test
     public void Given_Value_WhenGettingStat_ThenGetBoolean() {
         CreatePlayer.chooseType(1);
